@@ -1,0 +1,32 @@
+%
+\documentclass[a4paper,12pt, titlepage, hidelinks]{report}
+
+\include{encoding}
+\include{format}
+\include{graphics}
+\include{comments}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{mathtools}
+\usepackage[final]{pdfpages}
+
+\title{Magistrinis}
+\author{Vardenis Pavardenis}
+\date{2016}
+
+\begin{document}
+
+\selectlanguage{lithuanian}
+
+\include{pages/index}
+
+\tableofcontents
+
+\include{pages/dict}
+
+\include{pages/chapters/abstract}
+\include{pages/chapters/intro}
+
+\include{pages/bibliography/sources}
+\include{pages/appendix/appendix}
+\end{document}
